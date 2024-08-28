@@ -27,7 +27,7 @@
 
 ### DataType / Primitive
 - Bounds
-- Data Type | Size | Description 
+ Data Type | Size | Description 
     --- | --- | --- 
     byte | 1 byte | -128 to 127
     short | 2 bytes | -32,768 to 32,767
