@@ -3,6 +3,9 @@
 ## Data Types
 - Primitive
   - int/long/boolean/short
+    Data Type | Size | Description 
+    --- | --- | --- 
+    Seconds | 301 | 283 
 - Non-Primitive
   - Built-in
     - Integer/Long/Boolean/Short
