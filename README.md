@@ -1,1 +1,5 @@
-# interview_prep
+# Interview Preparation
+
+## Basics
+- Java
+- Python
