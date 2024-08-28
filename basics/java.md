@@ -2,10 +2,10 @@
 
 ## Data Types
 - Primitive
-  - int/long/boolean/short
+  - int/long/float/boolean/short
 - Non-Primitive
   - Built-in
-    - Integer/Long/Boolean/Short
+    - Integer/Long/Float/Boolean/Short
     - String
     - Collections: List/Map/Set/Queue/DeQueue
       - Linear
@@ -13,50 +13,75 @@
   - Custom
 
 ### DataType / Primitive
-
+- Bounds
+  - int: 
+  - float: 
+  - long:
+  - boolean:
+  - short: 
 ### DataType / Non-Primitive / Collections
 - List Interface
-  - Abstract List Class
-  - Abstract Sequential List Class
   - **Array List**
-  - Vector Class
   - **Stack Class**
   - **LinkedList Class**
+  - Vector Class
+  - Abstract List Class
+  - Abstract Sequential List Class
 - Queue Interface
+  - **PriorityQueue Class**
+  - **ConcurrentLinkedQueue Class**
   - Blocking Queue Interface
   - AbstractQueue Class
-  - **PriorityQueue Class**
   - PriorityBlockingQueue Class
-  - **ConcurrentLinkedQueue Class**
   - ArrayBlockingQueue Class
   - DelayQueue Class
   - LinkedBlockingQueue Class
   - LinkedTransferQueue
 - Deque Interface
-  - BlockingDeque Interface
   - **ConcurrentLinkedDeque Class**
   - **ArrayDeque Class**
+  - BlockingDeque Interface
 - Set Interface
+  - **HashSet Class**
+  - **LinkedHashSet Class**
+  - **ConcurrentHashMap Class**
   - Abstract Set Class
   - CopyOnWriteArraySet Class
   - EnumSet Class
-  - **ConcurrentHashMap Class**
-  - **HashSet Class**
-  - **LinkedHashSet Class**
 - SortedSet Interface
-  - NavigableSet Interface
   - **TreeSet**
   - **ConcurrentSkipListSet Class**
+  - NavigableSet Interface
 - Map Interface
+  - **HashMap Class**
+  - **LinkedHashMap Class**
+  - **TreeMap Class**
+  - **ConcurrentMap Interface**
   - SortedMap Interface
   - NavigableMap Interface
-  - **ConcurrentMap Interface**
-  - **TreeMap Class**
   - AbstractMap Class
   - ConcurrentHashMap Class
   - EnumMap Class
-  - **HashMap Class**
   - IdentityHashMap Class
-  - **LinkedHashMap Class**
   - HashTable Class
   - Properties Class
+
+## Control Flow Statements
+
+### Conditions
+- if/else-if
+- switch-case-default
+- ternary operator
+#### if/else-if
+#### switch-case-default
+#### ternary operator
+
+### Loops
+- for loop
+- foreach loop
+- while loop
+- do-while loop
+#### for loop
+#### foreach loop
+#### while loop
+#### do-while loop
