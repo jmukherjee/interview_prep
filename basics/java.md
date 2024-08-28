@@ -36,7 +36,7 @@
     float | 4 bytes | Sufficient for storing 6 to 7 decimal digits
     double | 8 bytes |  Sufficient for storing 15 decimal digits
     boolean | 1 bit | true or false
-	  char | 2 bytes | single character/letter or ASCII values
+    char | 2 bytes | single character/letter or ASCII values
  
 ### DataType / Non-Primitive / Collections
 - List Interface
