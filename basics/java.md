@@ -116,8 +116,13 @@ PriorityQueue |  |  |  |  |   |  |
 ConcurrentLinkedQueue |  |  |  |  |   |  | 
 
 #### Conversions
-##### Array(int/long) to List<Integer/Long> & viceversa
-##### Array(float/double) to List<Float/Double> & viceversa
+##### Primitive Array to List & viceversa
+- Array(int/long) to List<Integer/Long> & viceversa
+- Array(float/double) to List<Float/Double> & viceversa
+- Array(boolean) to List<Boolean> & viceversa
+
+##### List to Queue & viceversa
+
 
 ## Control Flow Statements
 
