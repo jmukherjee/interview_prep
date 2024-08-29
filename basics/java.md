@@ -116,7 +116,7 @@ PriorityQueue |  |  |  |  |   |  |
 ConcurrentLinkedQueue |  |  |  |  |   |  | 
 
 Object | init | Add | Delete | Update| Read | Size/length | Contains 
-    --- | --- | --- 
+    --- | --- | --- | --- | --- | --- | --- | ---
     Array List | ArrayList<String> cars = new ArrayList<String>(); | add() | remove(Index) | set(index, <value>) | get(Index) | size() | --
     Stack | Stack<Integer> stack = new Stack<>(); | push(<value>) | pop() | NA | peek() & search(<value>)  | size() |-- 
     LinkedList | LinkedList<String> list = new LinkedList<String>(); |  add(element) | remove(Index) && remove(element) | set(index, <value>) | get(Index) | size() | contains(Object)
