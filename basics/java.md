@@ -39,6 +39,10 @@
     char | 2 bytes | single character/letter or ASCII values
  
 ### DataType / Non-Primitive / Collections
+<table border="1" id="tbl_dt_pm_col" class="tbl-dt-pm-col">
+  <tr>
+    <td>
+
 - List Interface
   - **Array List**
   - **Stack Class**
@@ -46,6 +50,21 @@
   - Vector Class
   - Abstract List Class
   - Abstract Sequential List Class
+- Set Interface
+  - **HashSet Class**
+  - **LinkedHashSet Class**
+  - **ConcurrentHashMap Class**
+  - Abstract Set Class
+  - CopyOnWriteArraySet Class
+  - EnumSet Class
+- SortedSet Interface
+  - **TreeSet**
+  - **ConcurrentSkipListSet Class**
+  - NavigableSet Interface
+      &nbsp;
+    </td>
+    <td>
+ 
 - Queue Interface
   - **PriorityQueue Class**
   - **ConcurrentLinkedQueue Class**
@@ -60,17 +79,10 @@
   - **ConcurrentLinkedDeque Class**
   - **ArrayDeque Class**
   - BlockingDeque Interface
-- Set Interface
-  - **HashSet Class**
-  - **LinkedHashSet Class**
-  - **ConcurrentHashMap Class**
-  - Abstract Set Class
-  - CopyOnWriteArraySet Class
-  - EnumSet Class
-- SortedSet Interface
-  - **TreeSet**
-  - **ConcurrentSkipListSet Class**
-  - NavigableSet Interface
+      &nbsp;
+    </td>
+    <td>
+ 
 - Map Interface
   - **HashMap Class**
   - **LinkedHashMap Class**
@@ -84,6 +96,28 @@
   - IdentityHashMap Class
   - HashTable Class
   - Properties Class
+      &nbsp;
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+#### CRUD Operations
+Type | Init | Add | Read | Update | Delete | Usage | Avoid
+--- | --- | --- | --- | --- | --- | --- | ---
+Array |  |  |  |  |  |  | 
+ArrayList |  |  |  |  |   |  | 
+LinkedList |  |  |  |  |   |  | 
+Stack |  |  |  |  |   |  | 
+PriorityQueue |  |  |  |  |   |  | 
+ConcurrentLinkedQueue |  |  |  |  |   |  | 
+
+#### Conversions
+##### Array(int/long) to ArrayList<Integer/Long> & viceversa
+##### Array(float/double) to ArrayList<Float/Double> & viceversa
 
 ## Control Flow Statements
 
@@ -104,3 +138,8 @@
 #### foreach loop
 #### while loop
 #### do-while loop
+
+<style>
+#tbl_dt_pm_col {font-size:x-small;}
+.tbl-dt-pm-col {font-size:x-small;}
+</style>
