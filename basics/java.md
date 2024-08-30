@@ -322,6 +322,9 @@ al.spliterator();
 		
 		ArrayList<String> s_list= new ArrayList<String>();		
 		String[]  Arrs = s_list.toArray(new String[s_list.size()]);
+-ArrayList to Array
+	List<Integer> al = new ArrayList<Integer>();
+	Integer[] objects = (Integer []) al.toArray();
 
 ##### List to Queue & viceversa
 
