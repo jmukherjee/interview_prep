@@ -117,15 +117,194 @@ ConcurrentLinkedQueue |  |  |  |  |   |  |
 
 Object | init | Add | Delete | Update| Read | Size | Contains 
 --- | --- | --- | --- | --- | --- | --- | ---
-Array List | ArrayList<String> cars = new ArrayList<String>(); | add() | remove(Index) | set(index, <value>) | get(Index) | size() | --
+Array List | ArrayList<> ar = new ArrayList<String>(); | add() | remove(Index) | set(index, <value>) | get(Index) | size() | --
 Stack | Stack<Integer> stack = new Stack<>(); | push(<value>) | pop() | NA | peek() & search(<value>)  | size() |-- 
 LinkedList | LinkedList<String> list = new LinkedList<String>(); |  add(element) | remove(Index) && remove(element) | set(index, <value>) | get(Index) | size() | contains(Object)
 Array | int myArray[] = new int[4]; | newarr[n] = x;  | NA | newarr[n] = x; ) | newarr[n] | array.length | --
 
+<table border="1" id="tbl_dt_pm_col" class="tbl-dt-pm-col">
+  <tr>
+    <th>Type</th>
+    <th>Init</th>
+    <th>Add</th>
+    <th>Update</th>
+    <th>Read</th>
+    <th>Delete</th>
+    <th>Size</th>
+    <th>Iterator</th>
+    <th>Misc</th>
+  </tr>
+  <tr>
+    <th><a href="https://docs.oracle.com/javase/8/docs/api/java/util/List.html">List</a></th>
+    <td>
+      <pre>
+List<> lst1 = new ...List<String>();
+List<> lst2 = new ...List<String>(10);
+List<> lst3 = new ...List<String>(coll);
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.add(obj);
+lst.add(5, obj);
+
+lst.addAll(coll);
+lst.addAll(5, coll);
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.set(5, obj);
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.get(5);
+
+lst.indexOf(obj);
+
+lst.subList(5, 10);
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.remove(5);
+lst.remove(obj);
+lst.removeAll(coll);
+lst.removeIf(5);
+lst.removeRange(5, 10);
+
+lst.retainAll(coll);
+
+lst.clear();
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.size();
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.listIterator();
+lst.listIterator(5);
+      </pre>
+    </td>
+    <td>
+      <pre>
+lst.isEmpty();
+
+lst.contains(obj);
+lst.containsAll(obj);
+
+lst.sort(comparator);
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <th><a href="https://docs.oracle.com/javase/8/docs/api/java/util/ArrayList.html">ArrayList</a></th>
+    <td>
+      <pre>
+ArrayList<> al1 = new ArrayList<String>();
+ArrayList<> al2 = new ArrayList<String>(10);
+ArrayList<> al3 = new ArrayList<String>(coll);
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+al.trimToSize();
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+al.forEach(action);
+
+al.iterator();
+al.spliterator();
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+  </tr>
+  <tr>
+    <th><a href="https://docs.oracle.com/javase/8/docs/api/java/util/LinkedList.html">LinkedList</a></th>
+    <td>
+      <pre>
+LinkedList<> al1 = new LinkedList<String>();
+LinkedList<> al2 = new LinkedList<String>(coll);
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+al.trimToSize();
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+al.forEach(action);
+
+al.iterator();
+al.spliterator();
+      </pre>
+    </td>
+    <td>
+      <pre>
+- as above -
+      </pre>
+    </td>
+  </tr>
+</table>
 
 #### Conversions
 ##### Primitive Array to List & viceversa
-- Array(int/long) to List<Integer/Long> & viceversa
+- Array(int/short/long) to List<Integer/Long> & viceversa
 - Array(float/double) to List<Float/Double> & viceversa
 - Array(boolean) to List<Boolean> & viceversa
 
