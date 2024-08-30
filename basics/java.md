@@ -308,7 +308,7 @@ al.spliterator();
 - Array(float/double) to List<Float/Double> & viceversa
 - Array(boolean) to List<Boolean> & viceversa
 
-- 	ArrayList<Integer> a_list= new ArrayList<Integer>();- 	
+- 		ArrayList<Integer> a_list= new ArrayList<Integer>();- 	
 		Integer[]  Arr = a_list.toArray(new Integer[a_list.size()]);		
 		
 		ArrayList<Boolean> b_list= new ArrayList<Boolean>();		
