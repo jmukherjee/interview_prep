@@ -307,7 +307,7 @@ al.spliterator();
 - Array(int/short/long) to List<Integer/Long> & viceversa
 - Array(float/double) to List<Float/Double> & viceversa
 - Array(boolean) to List<Boolean> & viceversa
-
+-ArrayList to Array
 - 		ArrayList<Integer> a_list= new ArrayList<Integer>();- 	
 		Integer[]  Arr = a_list.toArray(new Integer[a_list.size()]);		
 		
@@ -322,10 +322,15 @@ al.spliterator();
 		
 		ArrayList<String> s_list= new ArrayList<String>();		
 		String[]  Arrs = s_list.toArray(new String[s_list.size()]);
--ArrayList to Array
+
 
 		List<Integer> al = new ArrayList<Integer>();
 		Integer[] objects = (Integer []) al.toArray();
+-List to Array
+		
+  		List al = Arrays.asList(myarray)
+		List<Integer> al = new ArrayList<Integer>(<Collection>);
+		List<Integer> al = new ArrayList<Integer>(Arrays.asList(myarray));
 
 ##### List to Queue & viceversa
 
