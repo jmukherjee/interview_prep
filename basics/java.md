@@ -122,6 +122,8 @@ Stack | Stack<Integer> stack = new Stack<>(); | push(<value>) | pop() | NA | pee
 LinkedList | LinkedList<String> list = new LinkedList<String>(); |  add(element) | remove(Index) && remove(element) | set(index, <value>) | get(Index) | size() | contains(Object)
 Array | int myArray[] = new int[4]; | newarr[n] = x;  | NA | newarr[n] = x; ) | newarr[n] | array.length | --
 HashMap | HashMap<String, Integer> map = new HashMap<>(); | map.put(key, value) | 	remove(Object key) | 	replace(K key, V value) | get(key) | size() | map.containsKey(Key) & map.containsValue(Object value)
+HashTable | HashTable<String, Integer> map = new HashTable<>(); | put(key, value) | 	remove(Object key) | 	replace(K key, V value) | get(key) | size() | containsKey(Key) & containsValue(Object value)
+ 
 
 <table border="1" id="tbl_dt_pm_col" class="tbl-dt-pm-col">
   <tr>
