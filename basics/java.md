@@ -342,9 +342,11 @@ al.spliterator();
 
 ### Conditions
 - if/else-if
-- switch-case-default
-
-  		switch(expression) {
+- switch-case-default  		
+- ternary operator
+#### if/else-if
+#### switch-case-default
+	switch(expression) {
  	 	case x:
 		    // code block
 		    break;
@@ -355,9 +357,6 @@ al.spliterator();
 		    // code block
 		}
   
-- ternary operator
-#### if/else-if
-#### switch-case-default
 #### ternary operator
 
 ### Loops
