@@ -343,6 +343,18 @@ al.spliterator();
 ### Conditions
 - if/else-if
 - switch-case-default
+
+  		switch(expression) {
+ 	 	case x:
+		    // code block
+		    break;
+		  case y:
+		    // code block
+		    break;
+		  default:
+		    // code block
+		}
+  
 - ternary operator
 #### if/else-if
 #### switch-case-default
@@ -350,11 +362,15 @@ al.spliterator();
 
 ### Loops
 - for loop
-- foreach loop
+- foreach loop  		
 - while loop
 - do-while loop
 #### for loop
 #### foreach loop
+	for (type var : array) 
+	{ 
+         statements using var;
+	}
 #### while loop
 #### do-while loop
 
